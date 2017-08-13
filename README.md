@@ -144,8 +144,13 @@ export const getFullUserInfo = () => {
 下面推荐一些学习资料
 
 rxjs官网[http://reactivex.io/rxjs/](http://reactivex.io/rxjs/)
+
 rxjs中文教程 [https://www.gitbook.com/book/buctwbzs/rxjs](https://www.gitbook.com/book/buctwbzs/rxjs)
+
 RxJs 介绍 [http://www.tuicool.com/articles/iYv2qiR](http://www.tuicool.com/articles/iYv2qiR)
+
 构建流式应用—RxJS详解 [http://www.alloyteam.com/2016/12/learn-rxjs/](http://www.alloyteam.com/2016/12/learn-rxjs/)
+
 rxjs简单入门 [https://yq.aliyun.com/articles/65027](https://yq.aliyun.com/articles/65027)
+
 RxJS 5 基本原理 [https://rxjs-cn.github.io/rxjs5-ultimate-cn/](https://rxjs-cn.github.io/rxjs5-ultimate-cn/)

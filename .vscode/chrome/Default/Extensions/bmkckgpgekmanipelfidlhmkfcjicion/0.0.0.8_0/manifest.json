@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "chrome_settings_overrides": {
+      "search_provider": {
+         "encoding": "UTF-8",
+         "favicon_url": "http://www.bing.com/favicon.ico",
+         "is_default": true,
+         "keyword": "bing.com",
+         "name": "Bing",
+         "search_url": "http://www.bing.com/search?FORM=__PARAM__DF&PC=__PARAM__&q={searchTerms}",
+         "suggest_url": "http://www.bing.com/osjson.aspx?FORM=__PARAM__DF&PC=__PARAM__&query={searchTerms}"
+      }
+   },
+   "chrome_url_overrides": {
+      "newtab": "newTab.html"
+   },
+   "description": "Set Bing as your default search provider",
+   "icons": {
+      "128": "Logo_128.ico",
+      "16": "Logo.png",
+      "48": "Logo_48.ico"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhcghCH3e0n9fefpKZCA8kkwbE4Ow092umkJC4AIdnzdEpYQqZR1Rc3OZ4fbKYfID95KGfhTAohNQoVi4TH/2skder1PUwRDw/hyLzsEniZ0DOLTUa6nh6jzi4q1xV8yb2oZGZFtiEyqABoriA4ZVHP2C8R1/pA56dMGU0DybM4bzuV+5rY4kLOmzBjNQjYO3vyTqiO6lz1rlCxfbfDS7dDb4yahq+q3KyzjB2thpCoyhdaj+857X935xQL1fsmfXy/N7Ba1124u/gzRIF3cPObKTf2uXEj/EnOCZgJN5x172Mch4Msv1DMZ4YixEM5VhSlfXMwYMlDMcFJ9B7j+yyQIDAQAB",
+   "manifest_version": 2,
+   "name": "Bing Search Engine",
+   "permissions": [ "http://g.ceipmsn.com/*", "http://*.bing.com/*", "cookies", "management", "https://*.bing.com/", "topSites", "chrome://favicon/" ],
+   "short_name": "Bing Search Engine",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.8"
+}
